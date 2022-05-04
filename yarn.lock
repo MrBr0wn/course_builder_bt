@@ -466,6 +466,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"bulma@npm:^0.9.3":
+  version: 0.9.3
+  resolution: "bulma@npm:0.9.3"
+  checksum: 98e1c2794b70c6339b41afc929bec6e22eae5b2751dc5fb0d9b7195d1c799ba4129a6fda1097e966db492f65fc4bed719da2498356c1ea6a9972f23ad3025d5c
+  languageName: node
+  linkType: hard
+
 "cacache@npm:^16.0.2":
   version: 16.0.7
   resolution: "cacache@npm:16.0.7"
@@ -605,6 +612,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "course_builder_bt@workspace:."
   dependencies:
+    bulma: ^0.9.3
     css-loader: ^4.3.0
     esbuild: ^0.13.15
     esbuild-loader: ^2.16.0
@@ -688,9 +696,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.4.118":
-  version: 1.4.131
-  resolution: "electron-to-chromium@npm:1.4.131"
-  checksum: adf3159d22dd8ae3e46e86fe89e91ad39f622855ece36a0f73e53171792dead8e6876c3246e8b54b259b3a7d68ef093e020a12d55adf34692ed38d4c172b0376
+  version: 1.4.132
+  resolution: "electron-to-chromium@npm:1.4.132"
+  checksum: 133be125d1fa9693ce1d2f83d3f03a79ee19059fb95c203af87c4f833e661b7185ddb918fc53e272a7c8ff4169907cf1879790d1681011c6035c5c4f66b2848a
   languageName: node
   linkType: hard
 

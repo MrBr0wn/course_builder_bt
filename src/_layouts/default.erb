@@ -7,7 +7,9 @@
     <%= render Shared::Navbar.new(metadata: site.metadata, resource: resource) %>
 
     <main>
-      <%= yield %>
+      <section class="section">
+        <%= yield %>
+      </section>
     </main>
 
     <%= render "footer", metadata: site.metadata %>
