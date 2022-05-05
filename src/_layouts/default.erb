@@ -3,14 +3,26 @@
   <head>
     <%= render "head", metadata: site.metadata, title: resource.data.title %>
   </head>
-  <body class="<%= resource.data.layout %> <%= resource.data.page_class %>">
-    <%= render Shared::Navbar.new(metadata: site.metadata, resource: resource) %>
 
-    <main>
-      <section class="section">
-        <%= yield %>
-      </section>
-    </main>
+  <body class="<%= resource.data.layout %> <%= resource.data.page_class %>">
+    <section class="hero is-link">
+      <div class="hero-body">
+        <p class="title">
+          Awesome Courses
+        </p>
+      </div>
+    </section>
+
+    <div class="columns">
+
+      <%= render Shared::Navbar.new(metadata: site.metadata, resource: resource) %>
+
+      <div class="column is-10">
+        <section class="section">
+          <%= yield %>
+        </section>
+      </div>
+    </div>
 
     <%= render "footer", metadata: site.metadata %>
   </body>
