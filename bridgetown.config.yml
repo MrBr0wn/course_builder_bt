@@ -29,3 +29,18 @@ template_engine: erb
 # timezone: America/Los_Angeles
 # pagination:
 #   enabled: true
+
+collections:
+  courses:
+    output: true
+    permalink: pretty
+    future: true
+    relations:
+      has_many: units
+
+  units:
+    output: true
+    permalink: pretty
+    future: true
+    relations:
+      has_many: courses
