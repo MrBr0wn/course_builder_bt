@@ -1,5 +1,5 @@
-/*
-!output
-!docs
+output
 !.github
 !.gitignore
+node_modules
+.bridgetown-cache
