@@ -1,9 +1,0 @@
-- name: Course 1
-  volume: 5/10
-  annotation: Some annotation for Course 1
-  description_text: Some description text for Course 1
-
-- name: Course 2
-  volume: 10/10
-  annotation: Some annotation for Course 2
-  description_text: Some description text for Course 2
