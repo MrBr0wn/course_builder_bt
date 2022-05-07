@@ -44,3 +44,5 @@ collections:
     future: true
     relations:
       has_many: courses
+
+base_path: /course_builder_bt
