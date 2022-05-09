@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>
+    All units | Your awesome title
+</title>
+
+<meta name="description" content="Write an awesome description for your new site here. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
+
+<link rel="stylesheet" href="/course_builder_bt/_bridgetown/static/css/main.7efe0dd1386483713ee4.css" />
+<script src="/course_builder_bt/_bridgetown/static/js/main.059a432b36c68778fc24.js" defer></script>
+<script type="module">let lastmod = 0
+function startReloadConnection() {
+  const evtSource = new EventSource("/course_builder_bt/_bridgetown/live_reload")
+  evtSource.onmessage = event => {
+    if (event.data == "reloaded!") {
+      location.reload()
+    } else {
+      const newmod = Number(event.data)
+      if (lastmod > 0 && newmod > 0 && lastmod < newmod) {
+        location.reload()
+      } else {
+        lastmod = newmod
+      }
+    }
+  }
+  evtSource.onerror = event => {
+    if (evtSource.readyState === 2) {
+      // reconnect with new object
+      evtSource.close()
+      console.warn("Live reload: attempting to reconnect in 3 seconds...")
+
+      setTimeout(() => startReloadConnection(), 3000)
+    }
+  }
+}
+setTimeout(() => {
+  startReloadConnection()
+}, 500)
+</script>
+
+  </head>
+
+  <body class="units ">
+    <section class="hero is-link">
+      <div class="hero-body">
+        <p class="title">
+          Awesome Courses
+        </p>
+      </div>
+    </section>
+
+    <div class="columns">
+
+      <div class="column is-2">
+
+  <aside class="menu">
+    <p class="menu-label">
+      General
+    </p>
+
+    <ul class="menu-list">
+      <li>
+        <a href="/course_builder_bt/">Dashboard</a>
+      </li>
+      <li>
+        <a href="/course_builder_bt/">Courses</a>
+      </li>
+      <li>
+        <a href="/course_builder_bt/units">Units</a>
+      </li>
+    </ul>
+
+    <p class="menu-label">
+      Others
+    </p>
+
+    <ul class="menu-list">
+      <li><a href="/course_builder_bt/about">About</a></li>
+    </ul>
+  </aside>
+</div>
+
+
+      <div class="column is-10">
+        <section class="section">
+          <h2 class="subtitle">All courses from site data</h2>
+<div class="columns">
+  <div class="column is-2">
+  <table class="table">
+    <thead>
+      <tr>
+        <th><abbr title="Position">Pos</abbr></th>
+        <th>Name</th>
+        <th>Body</th>
+      </tr>
+    </thead>
+    <tbody>
+
+        <tr>
+          <th>1</th>
+          <td>Unit 1</td>
+          <td>Body of Unit 1</td>
+        </tr>
+        <tr>
+          <th>2</th>
+          <td>Unit 2</td>
+          <td>Body of Unit 2</td>
+        </tr>
+        <tr>
+          <th>3</th>
+          <td>Unit 3</td>
+          <td>Body of Unit 3</td>
+        </tr>
+        <tr>
+          <th>4</th>
+          <td>Unit 4</td>
+          <td>Body of Unit 4</td>
+        </tr>
+        <tr>
+          <th>5</th>
+          <td>Unit 5</td>
+          <td>Body of Unit 5</td>
+        </tr>
+        <tr>
+          <th>6</th>
+          <td>Unit 6</td>
+          <td>Body of Unit 6</td>
+        </tr>
+
+    </tbody>
+  </table>
+
+  <ul>
+      <li>
+        <a href="/course_builder_bt/units/2022/05/05/test-unit/">My First Unit</a>
+      </li>
+  </ul>
+  
+</div>
+
+</div>
+
+        </section>
+      </div>
+    </div>
+
+    <footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      <strong>Don't contact me please.</strong>
+    </p>
+  </div>
+</footer>
+
+  </body>
+</html>
